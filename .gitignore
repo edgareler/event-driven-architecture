@@ -1,4 +1,5 @@
 .env
+.vscode
 !.gitkeep
 node_modules
 dist
