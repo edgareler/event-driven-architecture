@@ -1,14 +1,16 @@
 {
   "name": "frontend",
-  "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
+    "lint:fix": "eslint --fix && prettier --write .",
     "preview": "vite preview"
   },
+  "author": "Edgar Eler <eler@edgar.systems>",
+  "license": "ISC",
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
     "react": "^19.1.0",
