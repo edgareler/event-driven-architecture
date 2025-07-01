@@ -1,0 +1,3 @@
+[submodule "packages/chat-telemetry"]
+	path = packages/chat-telemetry
+	url = https://github.com/edgareler/chat-telemetry
