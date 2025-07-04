@@ -14,6 +14,8 @@ export default tseslint.config([
       tseslint.configs.recommended,
       reactHooks.configs['recommended-latest'],
       reactRefresh.configs.vite,
+      'next/core-web-vitals',
+      'next/typescript',
     ],
     languageOptions: {
       ecmaVersion: 2020,
@@ -25,7 +27,6 @@ export default tseslint.config([
     },
     rules: {
       semi: ['error', 'always'],
-      'max-len': ['error', { code: 80 }],
       strict: ['error', 'global'],
       'prettier/prettier': 'error',
       '@typescript-eslint/no-explicit-any': 'error',
